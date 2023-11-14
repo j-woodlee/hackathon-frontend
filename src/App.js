@@ -1,6 +1,6 @@
 import "./App.css";
 // import AddChart from "./components/AddChart";
-import FactChart from "./components/FactChart";
+import BalanceChart from "./components/BalanceChart";
 import BarChart from "./components/BarChart";
 import ChartApi from "./components/ChartApi";
 import LineChart from "./components/LineChart";
@@ -12,7 +12,7 @@ function App() {
             {/* <LineChart />
             <BarChart />
             <ChartApi /> */}
-            <FactChart />
+            <BalanceChart />
         </div>
     );
 }
