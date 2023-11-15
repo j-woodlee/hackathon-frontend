@@ -11,7 +11,7 @@ function BalanceChart() {
     const [factType, setFactType] = useState('revenues');
 
     async function addChartData() {
-      const url = `http://localhost:3001/v1/internal/account-values/${userId}`
+      const url = `https://nebula-wallet-service.api.backend-sandbox.metalpay.network/v1/internal/account-values/${userId}`
       console.log('url: ');
       console.log(url);
       const { data: { balances } } = await axios.get(url);
